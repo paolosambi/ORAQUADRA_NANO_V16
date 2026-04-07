@@ -1,5 +1,5 @@
 ============================================
-  oraQuadra Nano - Web Flasher
+  oraQuadra Nano - Flasher
   Sistema di programmazione
 ============================================
 SCOMPATTARE LA CARTELLA build.zip in web_flasher/build e eseguire flash.bat (se win) flash.sh (se mac)
@@ -14,46 +14,6 @@ PREREQUISITI
    - Download: https://www.python.org/downloads/
 
 3. Driver USB CH340/CP2102 installati
-
-4. Browser compatibile: Chrome, Edge o Opera
-
-
-COME USARE (Metodo Locale)
---------------------------
-1. Esegui compile_and_deploy.bat
-   - Compila lo sketch Arduino
-   - Genera firmware.bin
-
-2. Esegui start_server.bat
-   - Avvia un server web locale sulla porta 8080
-
-3. Apri Chrome e vai a: http://localhost:8080
-
-4. Collega l'ESP32-S3 via USB
-
-5. Clicca "Installa Firmware" e seleziona la porta COM
-
-
-COME USARE (Hosting Online)
----------------------------
-1. Compila lo sketch con compile_and_deploy.bat
-
-2. Carica questi file su un hosting HTTPS:
-   - index.html
-   - manifest.json
-   - firmware.bin
-
-3. Apri l'URL del tuo hosting in Chrome
-
-
-FILE CONTENUTI
---------------
-- index.html          : Pagina web del flasher
-- manifest.json       : Configurazione ESP Web Tools
-- firmware.bin        : Firmware compilato (dopo compilazione)
-- compile_and_deploy.bat : Script di compilazione
-- start_server.bat    : Avvia server locale
-- build/              : File di compilazione (dopo compilazione)
 
 
 RISOLUZIONE PROBLEMI
