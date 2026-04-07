@@ -2,6 +2,7 @@
   oraQuadra Nano - Web Flasher
   Sistema di programmazione via browser
 ============================================
+SCOMPATTARE LA CARTELLA build.zip in web_flasher/build e eseguire flash.bat (se win) flash.sh (se mac)
 
 PREREQUISITI
 ------------
